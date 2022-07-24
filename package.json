@@ -1,0 +1,37 @@
+{
+  "name": "inspare-music",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": " electron .",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "electron-builder"
+  },
+  "build": {
+    "appId": "inspare-music",
+    "productName": "Inspare Music",
+    "win": {
+      "target": [
+        "nsis"
+      ],
+      "icon": "icon.ico"
+    },
+    "nsis": {
+      "oneClick": true,
+      "installerIcon": "icon.ico",
+      "uninstallerIcon": "icon.ico",
+      "uninstallDisplayName": "Inspare Music",
+      "allowToChangeInstallationDirectory": false
+    }
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^19.0.9",
+    "electron-builder": "^23.1.0"
+  },
+  "dependencies": {
+    "discord-rich-presence": "^0.0.8"
+  }
+}
