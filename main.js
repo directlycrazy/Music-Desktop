@@ -41,6 +41,9 @@ ipcMain.on('update-music', (event, arg) => {
       largeImageText: `${arg[2]} on inspare.cc`,
       largeImageKey: 'logo',
       instance: true,
+      buttons: [
+        { "label": "Listen On inspare.cc", "url": `https://music.inspare.cc/track/${arg[4]}` }
+      ]
     });
   }
   event.returnValue = true;
