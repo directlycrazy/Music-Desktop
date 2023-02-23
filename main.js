@@ -12,6 +12,7 @@ function createWindow() {
       color: '#222222',
       symbolColor: '#545454'
     },
+    icon: path.join(__dirname, 'icon.png'),
     webPreferences: {
       preload: path.join(__dirname, 'preload.js'),
       nodeIntegration: true,

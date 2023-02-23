@@ -23,6 +23,14 @@
       "uninstallerIcon": "icon.ico",
       "uninstallDisplayName": "Inspare Music",
       "allowToChangeInstallationDirectory": false
+    },
+    "linux": {
+      "target": [
+        "AppImage"
+      ],
+      "description": "Fast, free, add free, painless music streaming.",
+      "icon": "icon.png",
+      "category": "Audio"
     }
   },
   "author": "",
