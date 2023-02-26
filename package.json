@@ -31,6 +31,13 @@
       "description": "Fast, free, add free, painless music streaming.",
       "icon": "icon.png",
       "category": "Audio"
+    },
+    "mac" : {
+      "category" : "",
+      "target" : "dmg",
+      "icon" : "icon.icns",
+      "darkModeSupport" : true,
+      "type" : "distribution"
     }
   },
   "author": "",
