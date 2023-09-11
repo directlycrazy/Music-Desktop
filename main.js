@@ -9,8 +9,8 @@ function createWindow() {
     autoHideMenuBar: true,
     titleBarStyle: 'hidden',
     titleBarOverlay: {
-      color: '#222222',
-      symbolColor: '#545454'
+      color: '#27262b',
+      symbolColor: '#ffffff'
     },
     icon: path.join(__dirname, 'icon.png'),
     webPreferences: {
